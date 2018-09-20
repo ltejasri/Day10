@@ -1,0 +1,7 @@
+package com.capgemini.bankapp.service;
+
+public interface BankAccountService {
+	private double getBalalance(long accountId) ;
+	private
+
+}

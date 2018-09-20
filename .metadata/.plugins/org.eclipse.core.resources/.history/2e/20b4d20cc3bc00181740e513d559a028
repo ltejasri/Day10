@@ -1,0 +1,9 @@
+package snippet;
+
+public class Snippet {
+	database.url=jdbc:mysql://localhost:3306/customers
+	database.uname=root
+	database.password=root
+	database.driverClass=com.mysql.cj.jdbc.Driver
+}
+

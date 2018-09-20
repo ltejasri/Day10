@@ -1,0 +1,49 @@
+package com.capgemini.bankapp.dbutil;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
+
+@Configuration
+@PropertySource("classpath:/bankapp/database.properties")
+@Component
+public class DbUtil {
+	
+	@Autowired
+	private Environment env;
+	
+	/*private static final String DB_URL = env.getProperty("database.url") ;
+	private static final String USERNAME = env.getProperty("database.uname");
+	private static final String PASSWORD = env.getProperty("database.passowrd");
+	private static final String DRIVER_CLASS= env.getProperty("database.driverClass") ;
+	
+	
+	@Bean
+	public static Connection getConnection() {
+		Connection connection = null;
+		
+		try {
+			Class.forName(DRIVER_CLASS);
+			connection = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
+			if(connection != null)
+				System.out.println("--connected -- ");
+		}
+		catch(ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+			System.out.println("-- failed to connect --");
+		}
+		return connection;
+	}*/
+	
+	public void read()
+	{
+		System.out.println(env.getProperty("database.url"));
+	}
+}

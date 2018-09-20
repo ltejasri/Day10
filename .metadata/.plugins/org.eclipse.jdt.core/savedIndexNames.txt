@@ -1,0 +1,27 @@
+INDEX VERSION 1.131+C:\Users\neagrawa\Desktop\sts\spring-tool-suite-3.9.5.RELEASE-e4.8.0-win32-x86_64\sts-bundle\sts-3.9.5.RELEASE\springframework\.metadata\.plugins\org.eclipse.jdt.core
+1199826107.index
+1142990880.index
+2561179376.index
+2911469802.index
+543038442.index
+1171061801.index
+371442394.index
+3029655698.index
+2221491804.index
+3726721386.index
+3314433690.index
+2997567257.index
+843494433.index
+3662331802.index
+1525087677.index
+1841280308.index
+449440424.index
+3515585589.index
+194205294.index
+3643810303.index
+30881555.index
+1475717011.index
+840149210.index
+1539866187.index
+2518358792.index
+91472061.index
